@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 20px;
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+.left-container{
+    background-color: white;
+}
+.logo-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 15px;
+    padding: 10px;
+}
+.logo-container > h3{
+    margin: 0;
+    margin-left: 20px;
+}
+.links{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 30px;
+    height: 270px;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
+.links > a {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 20px;
+    text-decoration: none;
+    padding: 5px;
+    color:darkgray;
+    border-radius: 10px;
+}
+.links > a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.header1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+.header-mid{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.middle-header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.search-input > input{
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.search-input{
+    position: relative;
+}
+.search-input > span{
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    width: 30px;
+    background-color: lightblue;
+    border-radius: 100px;
+    color: blue;
+}
+.card{
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 250px;
+    padding: 20px;
+    height: 150px;
+}
+.test{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    font-size: 12px !important;
+}
+.test1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.c1{
+    width: 20px !important;
+    font-size: 16px !important;
+    color: blue;
+}
+.card-head{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.c2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-right: 10px;
+}
+.user > span{
+    font-size: 12px;
+}
+.l{
+    background-color: orange;
+    border-radius: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+}
+.cards-container{
+    margin-bottom: 20px;
+}
+.mid-header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    color: gray;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+.mid-header > div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.ic1{
+    background-color: green;
+    border-top-right-radius:2px;
+    border-bottom-right-radius: 2px;
+    color: white;
+}
+.mh1{
+    background-color: white;
+}
+.ic2{
+    background-color: white;
+    margin-right: 5px;
+}
